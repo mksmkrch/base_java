@@ -69,7 +69,7 @@ public class ArrayStorage {
     }
 
     private int checkResume(String uuid) {
-        for (int i = 0; i <= count; i++) {
+        for (int i = 0; i < count; i++) {
             if (storage[i].getUuid() == uuid) {
                 return i;
             }
